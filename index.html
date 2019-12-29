@@ -1,0 +1,105 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>AOS - Animate on scroll library</title>
+		<meta name="description" content="AOS - Animate On Scroll library using CSS3">
+		<meta name="keywords" content="AOS, animate on scroll, css3 scroll animations, simple scroll animations">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        
+
+	</head>
+	<body>
+     <div class="section1">
+        <div class="nav">
+          <div class="code code--small code--left" data-aos="fade-up">
+              <p>Hello</p>
+          </div>            
+          <div class="code code--small code--left" data-aos="fade-right">
+              <p>Hello</p>
+          </div>            
+          <div class="code code--small code--left" data-aos="fade-down">
+              <p>Hello</p>
+          </div>            
+                      
+        </div>
+        <div class="code code--small code--left" data-aos="fade-up">
+            <div class="container p-3 my-3 bg-dark text-white">
+                Hello
+            </div>>
+          </div>
+       
+     </div>      
+     <div class="section2">
+         <div class ="im">
+        <div class="code code--small code--left" data-aos="fade-up">
+        
+            <img src="https://miro.medium.com/max/1050/1*oS7zV7zHIfMYM-SCSUpuMA.jpeg" alt="">
+        </div>
+        </div>
+     </div>      
+     <div class="section3">
+        
+     </div>      
+     <div class="section4"></div>     
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+
+       AOS.init({
+        disable: false,
+  startEvent: 'DOMContentLoaded', 
+  initClassName: 'aos-init', 
+  animatedClassName: 'aos-animate', 
+  useClassNames: false, 
+  disableMutationObserver: false, 
+  debounceDelay: 50, 
+  throttleDelay: 99, 
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom'
+     }
+       );
+     </script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	</body>
+</html>
